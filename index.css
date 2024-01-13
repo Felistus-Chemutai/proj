@@ -1,6 +1,5 @@
   
 .main{
-    background-color:yellow;
     display: flex;
     justify-content: center;
     align-items:center;
@@ -14,6 +13,7 @@
 }
 img{
     border-radius: 100px;
+    padding: 8px;
 }
 .grid{
     display: grid;
@@ -32,6 +32,7 @@ img{
 }
 .prof{
     display: flex;
+    grid-template-columns: 20% 80%;
     align-items: center;
     gap: 10px;
 }
