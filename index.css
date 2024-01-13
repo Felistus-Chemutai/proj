@@ -1,0 +1,67 @@
+  
+.main{
+    background-color:yellow;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.testimonials{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    column-gap: 15px;
+    border-radius: 10px;
+
+}
+img{
+    border-radius: 100px;
+}
+.grid{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 2rem;
+}
+.cont{
+    display: grid;
+    grid-template-columns:2fr 1fr;
+    column-gap: 2rem;
+}
+.cont1{
+    display: grid;
+    grid-template-columns:1fr 2fr;
+    column-gap: 2rem;
+}
+.prof{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.dan{
+    background-color: rgb(138, 43, 226);
+    border-radius: 5px;
+    color: white;
+}
+.joh{
+    background-color: gray;
+    border-radius: 5px;
+    color: white;
+}
+.jean{
+    background-color: beige;
+    border-radius: 5px;
+    color: black;
+}
+.pato{
+    background-color: rgb(30, 29, 29);
+    border-radius: 5px;
+    color: white;
+}
+.kira{
+    background-color:white;
+    border-radius:  5px;
+    color: black; 
+}
+.title{
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 3px;
+}
