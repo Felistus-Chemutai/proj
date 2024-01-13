@@ -1,8 +1,12 @@
-  
+  body{
+    margin: 100px;
+  }
 .main{
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items:center;
+    width: 100vw;
+    height: 100vh;
 }
 .testimonials{
     display: grid;
